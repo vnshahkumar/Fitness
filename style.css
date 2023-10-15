@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 87vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 10vh;
+    cursor: pointer;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    font-size: 1rem;
+}
+.navbar li:hover{
+    color: rgb(108, 15, 184);
+    font-weight: bolder;
+     
+     
+        
+}
+.topleft{
+    width: 50%;
+}
+.topright{ 
+    width: 50%;
+}
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width:20vw;
+    cursor: pointer;
+}
+.dumbellimg:hover{
+    transform: rotatey(10deg);
+ 
+    
+}
+.topright.gymimg{
+    width: 40vw;
+}
+.section2{
+    padding: 2rem;
+}
+.section2 h1{
+    font-size: 2.3rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    padding: 2rem 0;
+    margin: 2rem 1rem;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 1rem;
+    text-align: center;
+    background-color: paleturquoise;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+   margin: 2rem 2px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100vw;
+    margin-bottom: 4rem;
+    margin-top: rem;
+    border-collapse: collapse;
+}
+.btn:hover{
+    appearance: none;
+    font-weight: bold;
+    box-shadow: 3px 3px 1px 1px rgb(227 74 56);
+}
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 1rem 0;
+} 
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+.section3 h1{
+    font-size:3rem;
+}
+.section3{
+    padding:2rem;
+}
+footer{
+    padding: 1rem;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+}
+.footer{
+    font-weight: bold;
+    margin:0rem 4rem;
+    border: 1px solid;
+    border-radius: 4rem;
+    background-color:darkgrey
+    
+
+}
